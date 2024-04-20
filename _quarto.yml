@@ -1,0 +1,21 @@
+project:
+  type: website
+website:
+  title: "Penguin Modeling"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About
+      - href: Model.qmd
+        text: Model
+      - href: eda.qmd
+        text: EDA
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    
+editor: visual
